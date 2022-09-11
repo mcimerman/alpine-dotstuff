@@ -1,0 +1,10 @@
+#!/bin/sh
+echo -n "turn off eDP? [y/n]"
+read turn
+if [[ $turn == 'y' ]]; then
+	xrandr --output eDP --off
+fi
+
+echo -n "brightness % ? "
+read percent
+ddcutil setvcp 10 $percent

@@ -1,0 +1,20 @@
+
+
+
+
+"amixer set Master toggle"
+XF86AudioMute
+
+"amixer set Master 3-"
+XF86AudioLowerVolume
+
+
+"amixer set Master 3+"
+XF86AudioRaiseVolume
+
+
+"brightnessctl set 10%-"
+XF86MonBrightnessDown
+
+"brightnessctl set +10%"
+XF86MonBrightnessUp

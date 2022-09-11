@@ -1,0 +1,5 @@
+#!/bin/sh
+redshift -O 5500
+redshift -O 5500
+redshift -O 5500
+redshift -O 5500
